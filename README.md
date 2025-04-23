@@ -9,6 +9,7 @@ Air pollution is a major global concern, affecting human health, climate, and ec
 # Dataset
 Source
 Dataworld :https://catalog.data.gov/dataset/air-quality
+
 No:of Records 18025 rows and 12 columns
 
 # Features
@@ -90,17 +91,17 @@ This project was a great opportunity to strengthen my knowledge in machine learn
 
 # Results
 
-•	After training and evaluating several regression models, Random Forest Regressor provided the best performance.
+•	After training and evaluating several regression models, Random Forest Regressor provided the best performance
 
-	•	The evaluation metrics for the best model were:
+•	The evaluation metrics for the best model were:
  
-	•	Mean Absolute Error (MAE): ~1.75
+•	Mean Absolute Error (MAE): ~1.75
  
-	•	Mean Squared Error (MSE): ~7.10
+•	Mean Squared Error (MSE): ~7.10
  
-	•	Root Mean Squared Error (RMSE): ~2.66
+•	Root Mean Squared Error (RMSE): ~2.66
 
-	•	R² Score: 0.91 – indicating that the model explains 91% of the variance in the target variable (Data Value).
+•	R² Score: 0.91 – indicating that the model explains 91% of the variance in the target variable (Data Value).
  
-	•	When tested with unseen data, the model returned consistent and reasonable predictions, suggesting strong generalization ability.
-	•	These results show that the model can effectively predict air quality levels across different regions in New York City based on features like pollutant types and locations.
+•	When tested with unseen data, the model returned consistent and reasonable predictions, suggesting strong generalization ability.
+•	These results show that the model can effectively predict air quality levels across different regions in New York City based on features like pollutant types and locations.
