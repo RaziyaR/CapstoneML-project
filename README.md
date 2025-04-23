@@ -105,3 +105,8 @@ This project was a great opportunity to strengthen my knowledge in machine learn
  
 •	When tested with unseen data, the model returned consistent and reasonable predictions, suggesting strong generalization ability.
 •	These results show that the model can effectively predict air quality levels across different regions in New York City based on features like pollutant types and locations.
+
+## Author
+
+**Raziya Firosh**
+*Capstone ML Project 2025*
