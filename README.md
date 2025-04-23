@@ -2,7 +2,7 @@
 
 
 
-# 1. Overview 
+#  Overview 
 
 Air pollution is a major global concern, affecting human health, climate, and ecosystems. Monitoring air quality is essential for understanding pollution levels, identifying key pollutants, and taking necessary actions to improve environmental conditions. However, with increasing urbanization and industrialization, air pollution levels continue to rise, posing serious health risks. This study aims to analyze air quality data to identify trends, detect anomalies, and understand the impact of various pollutants on environmental and human health.
 
