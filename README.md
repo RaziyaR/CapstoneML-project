@@ -38,26 +38,41 @@ No:of Records 18025 rows and 12 columns
 
 # Steps Used
 
-Data Collection & Cleaning
-Exploratory Data Analysis (EDA)
-Feature Engineering
-Feature Selection
-Feature Scaling
-Training and Testing
-Model building
-Model Evaluation
-Hyperparameter tuning
-Pipeline Implementation
-Test with unseen data
+1.Data Collection & Cleaning
+
+2.Exploratory Data Analysis (EDA)
+
+3.Feature Engineering
+
+4.Feature Selection
+
+5.Feature Scaling
+
+6.Training and Testing
+
+7.Model building
+
+8.Model Evaluation
+
+9.Hyperparameter tuning
+
+10.Pipeline Implementation
+
+11.Test with unseen data
 
 # Libraries Used
 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-joblib
+1.pandas
+
+2.numpy
+
+3.matplotlib
+
+4.seaborn
+
+5.scikit-learn
+
+6.joblib
 
 # About the project
 
@@ -74,11 +89,18 @@ Finally, I tested the trained model using unseen data to simulate real-world per
 This project was a great opportunity to strengthen my knowledge in machine learning workflows, model evaluation, and real-world data application. It also highlighted the importance of clean data, meaningful features, and proper tuning to build reliable and accurate predictive models.
 
 # Results
+
 •	After training and evaluating several regression models, Random Forest Regressor provided the best performance.
+
 	•	The evaluation metrics for the best model were:
+ 
 	•	Mean Absolute Error (MAE): ~1.75
+ 
 	•	Mean Squared Error (MSE): ~7.10
+ 
 	•	Root Mean Squared Error (RMSE): ~2.66
+
 	•	R² Score: 0.91 – indicating that the model explains 91% of the variance in the target variable (Data Value).
+ 
 	•	When tested with unseen data, the model returned consistent and reasonable predictions, suggesting strong generalization ability.
 	•	These results show that the model can effectively predict air quality levels across different regions in New York City based on features like pollutant types and locations.
