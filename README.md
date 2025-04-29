@@ -91,20 +91,32 @@ This project was a great opportunity to strengthen my knowledge in machine learn
 
 # Results
 
-•	After training and evaluating several regression models, Random Forest Regressor provided the best performance
+After evaluating multiple regression models, the Random Forest Regressor outperformed all others with the most accurate and stable results.
 
-•	The evaluation metrics for the best model were:
- 
-•	Mean Absolute Error (MAE): ~1.75
- 
-•	Mean Squared Error (MSE): ~7.10
- 
-•	Root Mean Squared Error (RMSE): ~2.66
+The evaluation metrics for the best model (Random Forest Regressor) were:
 
-•	R² Score: 0.91 – indicating that the model explains 91% of the variance in the target variable (Data Value).
- 
-•	When tested with unseen data, the model returned consistent and reasonable predictions, suggesting strong generalization ability.
-•	These results show that the model can effectively predict air quality levels across different regions in New York City based on features like pollutant types and locations.
+Mean Absolute Error (MAE): 2.47
+
+Mean Squared Error (MSE): 35.78
+
+Root Mean Squared Error (RMSE): 5.98
+
+R² Score: 0.93 — indicating that the model explains 93% of the variance in the target variable (Data Value).
+
+Model Comparison Summary:
+
+Decision Tree Regressor also performed well with an R² of 0.91, but was slightly less stable.
+
+Gradient Boosting and MLP Regressor showed moderate results.
+
+Linear Regression and Support Vector Regressor (SVR) had weaker performances with R² scores of 0.60 and 0.44, respectively.
+
+AdaBoost Regressor performed poorly with a negative R² (-0.93), indicating poor generalization.
+
+On unseen data, the Random Forest model provided consistent and realistic predictions, showing excellent generalization capability.
+
+These results demonstrate that ensemble models—especially Random Forest—are well-suited for predicting air quality levels in New York City based on environmental and regional features.
+
 
 ## Author
 
